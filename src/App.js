@@ -1,9 +1,11 @@
+
+import './App.css';
+import ClassCounter from './components/ClassCounter';
+
 function App() {
   return (
-    <div>
-      <>
-
-      </>
+    <div className="App">
+      <ClassCounter/>
     </div>
   );
 }
